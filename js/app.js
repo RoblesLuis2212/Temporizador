@@ -4,7 +4,6 @@ const inputMinutos = document.querySelector(".input-minutos");
 const inputSegundos = document.querySelector(".input-segundos");
 const formTemporizador = document.querySelector(".form-temporizador");
 const audioFinish = document.getElementById("audioFinish");
-const btnInicio = document.querySelector(".btn-Inicio");
 const btnPausar = document.querySelector(".btn-Pausa");
 const btnReinicio = document.querySelector(".btn-Reiniciar");
 
