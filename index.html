@@ -31,31 +31,31 @@
       >
         <h1 class="text-center">Temporizador</h1>
         <p class="time text-center mt-3">00:00:00</p>
-        <form class="d-flex flex-column gap-2 p-4">
+        <form class="d-flex flex-column gap-2 p-4 form-temporizador">
           <input
             type="number"
             placeholder="horas"
-            class="py-1 form-control rounded"
+            class="py-1 form-control input-horas rounded"
           />
           <input
             type="number"
             placeholder="minutos"
-            class="py-1 form-control rounded"
+            class="py-1 form-control input-minutos rounded"
           />
           <input
             type="number"
             placeholder="segundos"
-            class="py-1 form-control rounded"
+            class="py-1 form-control input-segundos rounded"
           />
-          <button class="btn btn-primary">
+          <button class="btn btn-primary btn-Inicio">
             Iniciar<i class="bi bi-play-circle-fill ms-1"></i>
           </button>
         </form>
         <div class="container d-flex botones p-4 gap-2">
-          <button class="btn btn-success w-100">
+          <button class="btn btn-success w-100 btn-Pausa">
             Pausar<i class="bi bi-pause-circle-fill ms-1"></i>
           </button>
-          <button class="btn btn-danger w-100">
+          <button class="btn btn-danger w-100 btn-Reiniciar">
             Reiniciar<i class="bi bi-bootstrap-reboot ms-1"></i>
           </button>
         </div>
